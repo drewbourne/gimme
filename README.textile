@@ -1,0 +1,18 @@
+h1. gimme
+
+pls can i haz new instance, but not quite like teh old one thx.
+
+<pre><code>
+  var nachoes:Nachoes = gimme.a(Nachoes, { beans: false });
+  var taquitos:Array = gimme.some(4, Taquitos, { type: Chicken });
+  var drinks:Array = gimme.like(50, Tequila, { size: ['shot', 'jug'], lemon: [true, false], salt: true });
+<code></pre>
+
+factories and property fuzzing for actionscript 3 projects. 
+
+dependencies will be included at some point. 
+so far they are: 
+- asx
+- hamcrest
+- spectacular
+
